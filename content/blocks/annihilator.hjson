@@ -1,0 +1,29 @@
+name: Annihilator
+description: Annihilates everything that moves.
+type: liquidTurret
+size: 1
+reload: 75
+range: 110
+ammoUseEffect: shellEjectSmall
+inaccuracy: 32
+rotatespeed: 11
+shootSound: annihilation
+ammo: {
+    hydrogen: {
+      speed: 4.2
+      damage: 480
+      reloadMultiplier: 1.0
+      bulletWidth: 7
+      bulletHeight: 9
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 0.8
+      backColor: ac7349
+      frontColor: dcd16b
+  }
+}
+requirements: [
+  lead/40
+  copper/70
+]
+category: turret

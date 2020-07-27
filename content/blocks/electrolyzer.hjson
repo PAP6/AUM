@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Electrolyzer"
+description: "Produces hydrogen by electrolysis. Very slow and consumes a lot of energy."
+liquidCapacity: 50
+outputLiquid: {
+  liquid: hydrogen
+  amount: 1
+}
+size: 1
+hasPower: true
+hasLiquids: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  liquid: {
+    liquid: water
+    amount: 9
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

@@ -1,6 +1,5 @@
 name: Annihilator
 description: Annihilates everything that moves.
-type: liquidTurret
 size: 5
 health: 540
 reload: 80

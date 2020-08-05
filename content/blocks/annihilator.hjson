@@ -1,13 +1,15 @@
 name: Annihilator
 description: Annihilates everything that moves.
 type: liquidTurret
-size: 4
+size: 5
+health: 540
 reload: 80
 range: 120
 ammoUseEffect: shellEjectSmall
 inaccuracy: 34
 rotatespeed: 10
 shootSound: annihilation
+hasLiquids: true
 ammo: {
     hydrogen: {
       speed: 4.0

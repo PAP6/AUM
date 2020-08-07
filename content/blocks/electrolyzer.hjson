@@ -12,19 +12,19 @@ hasLiquids: true
 craftTime: 70
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.9
+  power: 1.0
   liquid: {
     liquid: water
-    amount: 9
+    amount: 1
   }
 }
 requirements: [
   lead/50
   copper/80
+  graphite/35
   silicon/20
 ]
 category: crafting
-research: kiln
 idleSound: respawning
 idleSoundVolume: 0.5
 

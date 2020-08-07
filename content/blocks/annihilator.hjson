@@ -1,5 +1,6 @@
 name: Annihilator
 description: Annihilates everything that moves.
+type: liquidTurret
 size: 5
 health: 540
 reload: 80
@@ -24,8 +25,10 @@ ammo: {
   }
 }
 requirements: [
-  lead/40
-  copper/70
+  copper/95
+  lead/90
+  graphite/85
+  silicon/80
   surge-alloy/75
 ]
 category: turret

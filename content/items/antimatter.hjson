@@ -1,0 +1,6 @@
+type: material
+name: Antimatter
+description: An useless resource.
+hardness: 2
+cost: 3
+color: 000000

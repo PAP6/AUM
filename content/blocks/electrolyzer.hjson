@@ -1,15 +1,15 @@
 type: GenericCrafter
 name: "Electrolyzer"
 description: "Produces hydrogen by electrolysis. Very slow and consumes a lot of energy."
-liquidCapacity: 50
+liquidCapacity: 160
 outputLiquid: {
   liquid: hydrogen
-  amount: 1
+  amount: 80
 }
 size: 1
 hasPower: true
 hasLiquids: true
-craftTime: 75
+craftTime: 80
 updateEffect: smeltsmoke
 consumes: {
   power: 1.0

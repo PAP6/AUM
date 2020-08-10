@@ -12,8 +12,7 @@ shootSound: annihilation
 hasLiquids: true
 ammo: {
     hydrogen: {
-      type: LiquidBulletType
-      liquid: hydrogen
+      type: BasicBulletType
       speed: 4.0
       damage: 500
       reloadMultiplier: 1.0

@@ -1,0 +1,6 @@
+type: material
+name: War Isolator-alloy
+description: Isolates the war.
+hardness: 3
+cost: 4
+color: 777777

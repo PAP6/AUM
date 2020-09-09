@@ -1,0 +1,6 @@
+type: material
+name: Rubber
+description: Does not conduct current. Does not burn, but melts. Flexible.
+hardness: 1
+cost: 3
+color: 000000

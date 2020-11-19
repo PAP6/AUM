@@ -1,0 +1,7 @@
+type: material
+name: Thorium-228
+description: A more radioactive version of thorium-232.
+hardness: 4
+cost: 1.2
+radioactivity: 1.1
+color: ffc0cb

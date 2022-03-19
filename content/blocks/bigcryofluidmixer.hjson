@@ -6,16 +6,20 @@ outputLiquid: {
   liquid: cryofluid
   amount: 30
 }
-size: 1
+size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 1
+craftTime: 60
 updateEffect: smeltsmoke
 consumes: {
   power: 400.0
   liquid: {
     liquid: water
     amount: 30
+  }
+  item: {
+    item: titanium
+    amount:4
   }
 }
 requirements: [
